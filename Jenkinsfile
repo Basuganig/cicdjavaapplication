@@ -20,7 +20,7 @@ pipeline{
             gitCheckout(
                 branch: "main",
                 url: "https://github.com/Basuganig/cicdjavaapplication.git"
-            )
+                }
             }
         }
          stage('Unit Test maven'){
