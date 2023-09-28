@@ -17,7 +17,7 @@ pipeline{
             steps{
             gitCheckout(
                 branch: "main",
-                url: "'https://github.com/Basuganig/cicdjavaapplication.git'"
+                url: "https://github.com/Basuganig/cicdjavaapplication.git"
             )
             }
         }
