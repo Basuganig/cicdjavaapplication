@@ -14,7 +14,7 @@ pipeline {
                 expression { params.action == 'create' }
             }
             steps {
-                (
+                gitCheckout(
                     git branch: 'main', url: 'https://github.com/Basuganig/cicdjavaapplication.git'
                 )
             }
